@@ -402,6 +402,9 @@ MEDIA
   .contact-item .description {
     opacity: 1;
   }
+  body {
+  -webkit-print-color-adjust: exact;
+}
   /*#xxx {
     width: 50%!important;
     background: green!important;
