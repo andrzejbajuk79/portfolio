@@ -103,7 +103,7 @@ DEFAULT BOX
 }
 .box  a{
   font-size: 1.4em;
-  line-height: 1.5em;
+  line-height: 2.3em;
 }
 /*******************************************
 EDUCATION
@@ -356,4 +356,48 @@ MEDIA
   #education .description{
     width: 90%;
   }
+}
+
+@media print {
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  #hello {
+  display: none;
+  }
+  #job {
+  display: none;
+  }
+  #hide1 {
+  display: none;
+  }
+  #hide2 {
+  display: none;
+  }
+  #hide3{
+    display: none;
+  }
+  .item-skills {
+  background: BISQUE!important; 
+  }
+  .box h2{
+    color: CHOCOLATE!important;
+  }
+ .box a {
+      line-height: 1.4em;
+ }
+  .box h2:before {
+    color: CHOCOLATE!important;
+  }
+  #text-header h1 span {
+    color: CHOCOLATE!important;
+  }
+  #xxx {
+    width: 50%!important;
+    background: green!important;
+  }
+ 
 }
