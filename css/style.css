@@ -366,13 +366,13 @@ MEDIA
     width: 41.66666667%;
   }
   #hello {
-  display: none;
+   display: none;
   }
   #job {
-  display: none;
+    display: none;
   }
   #hide1 {
-  display: none;
+    display: none;
   }
   #hide2 {
   display: none;
@@ -381,14 +381,15 @@ MEDIA
     display: none;
   }
   .item-skills {
-  background: BISQUE!important; 
+    background: BISQUE!important; 
   }
   .box h2{
     color: CHOCOLATE!important;
   }
  .box a {
-      line-height: 1.4em;
- }
+    line-height: 1.4em;
+    font-size: 1.1em;
+  }
   .box h2:before {
     color: CHOCOLATE!important;
   }
@@ -397,6 +398,9 @@ MEDIA
   }
   .legend-left:nth-child(2) span {
     margin-left: 0px;
+  }
+  .contact-item .description {
+    opacity: 1;
   }
   /*#xxx {
     width: 50%!important;
