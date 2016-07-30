@@ -395,6 +395,9 @@ MEDIA
   #text-header h1 span {
     color: CHOCOLATE!important;
   }
+  .legend-left:nth-child(2) span {
+    margin-left: 0px;
+  }
   /*#xxx {
     width: 50%!important;
     background: green!important;
